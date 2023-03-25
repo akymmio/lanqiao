@@ -1,0 +1,1 @@
+{"name":"Local: dfs-分考场","url":"e:\\code\\lanqiao\\lanqiao\\dfs-分考场.cpp","tests":[{"id":1679662598894,"input":"5\n10\n1 2\n1 3\n1 4\n1 5\n2 3\n2 4\n2 5\n3 4\n3 5\n4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\lanqiao\\lanqiao\\dfs-分考场.cpp","group":"local","local":true}
