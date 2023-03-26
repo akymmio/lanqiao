@@ -1,0 +1,1 @@
+{"name":"Local: FF-islands","url":"e:\\code\\lanqiao\\lanqiao\\FF-islands.cpp","tests":[{"id":1679801503100,"input":"7\n.......\n.##....\n.##....\n....##.\n..####.\n...###.\n.......","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\lanqiao\\lanqiao\\FF-islands.cpp","group":"local","local":true}
