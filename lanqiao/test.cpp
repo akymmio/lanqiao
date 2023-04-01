@@ -1,15 +1,13 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 int main() {
-    // 请在此输入您的代码
-    int n;
+    double n;
     cin >> n;
-    int m = n;
-    int c = 1;
-    while (m) {
-        m /= 3;
-        c+=m;
+    if (n < 1.3) {
+        cout << "60" << endl;
+    } else if (n >= 1.3) {
+        cout << "120" << endl;
     }
-    cout << (n + c);
     return 0;
 }
