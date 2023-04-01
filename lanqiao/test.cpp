@@ -1,13 +1,19 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main() {
-    double n;
+int main()
+{
+    int n, k = 0;
     cin >> n;
-    if (n < 1.3) {
-        cout << "60" << endl;
-    } else if (n >= 1.3) {
-        cout << "120" << endl;
+    
+    for(int i = 1; i <= n; i++)
+    {
+        k += i;
+        if(k >= n)
+        {
+            cout << i << endl;
+            break;
+        }
     }
     return 0;
 }
