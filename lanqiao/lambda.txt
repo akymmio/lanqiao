@@ -1,0 +1,10 @@
+如果需要参数，那么就要像函数那样，放在圆括号里面，如果有返回值，返回类型要放在->后面，即拖尾返回类型，当然你也可以忽略返回类型，lambda会帮你自动推断出返回类型：
+
+
+// 指明返回类型
+auto add = [](int a, int b) -> int { return a + b; };
+// 自动推断返回类型
+auto multiply = [](int a, int b) { return a * b; };
+
+int sum = add(2, 5);   // 输出：7
+int product = multiply(2, 5);  // 输出：10
